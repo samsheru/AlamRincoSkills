@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Button Links</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+        }
+
+        .daba {
+            margin: 0;
+            padding: 30px 20px;
+            display: flex;
+            justify-content: center;
+            align-items: start;
+            height: 100%;
+            /* background: radial-gradient(ellipse at bottom, #1e1e2f 0%, #2c2c54 100%); */
+            background: radial-gradient(ellipse at bottom left, #ff0404 0%, #650b8e 100%);
+            font-family: 'Poppins', sans-serif;
+            /* You may need to include the font link */
+            color: #000;
+        }
+
+        .topics {
+            display: flex;
+            flex-direction: column;
+        }
+        .tdesign{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .line{
+            height: 1px;
+            width: 30vw;
+            background-color: #0ff7f7;
+        }
+        
+        .thead{
+            margin: 20px;
+            color: #FFFF;
+        }
+        
+        .button-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .custom-button {
+            display: inline-block;
+            padding: 8px 15px;
+            border-radius: 6px;
+            background-color: #000;
+            /* Light button background color */
+            color: #FFFF;
+            border: 1px solid black;
+            /* Button text color */
+            font-size: 13px;
+            text-decoration: none;
+            font-family: 'Poppins', 'Gilroy', sans-serif;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .custom-button:hover {
+            /* background-color: #dcdcdc; */
+            background-color: rgb(30, 37, 30);
+            /* Change this to your hover color */
+            /* color: #333; */
+            color: #ffffff;
+            border: 1px solid #FFFF;
+            /* Change this to your hover text color */
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="daba">
+        <div class="topics">
+            <div class="tdesign">
+                <div class="line"></div>
+                <h3 class="thead">HTML Topics</h3>
+                <div class="line"></div>
+            </div>
+            <div class="button-container">
+                <!-- Creating 50 buttons -->
+                <a href='https://youtu.be/tVzUXW6siu0?si=i4uMKPyKKrkYq80M' class='custom-button'>Installing VS Code and how website works 1</a>
+                <a href='https://youtu.be/nXba2-mgn1k?si=xWJKORBTs6NfjjNP' class='custom-button'>Heading & Paragraphs 4</a>
+                <a href='https://youtu.be/1BsVhumGlNc?t=49&si=64LUFAvudJPbLSJX' class='custom-button'>Image</a>
+                <a href='https://youtu.be/1BsVhumGlNc?t=364&si=GZP1_vED7gNThRhF' class='custom-button'>Table</a>
+                <a href='https://youtu.be/1BsVhumGlNc?t=807&si=V-J7REmLcEE6uViD' class='custom-button'>List</a>
+                <a href='https://youtu.be/tLBlhp0SA_0?t=150&si=Wnb-1ORtMt_aVnr9' class='custom-button'>Form</a>
+                <a href='https://youtu.be/tLBlhp0SA_0?t=216&si=OO44IFtjBGUeF1WK' class='custom-button'>Input Tag</a>
+                <a href='https://youtu.be/tLBlhp0SA_0?t=309&si=N5NKSSM1CJIkNc6k' class='custom-button'>Lable Tag</a>
+                <a href='https://youtu.be/tLBlhp0SA_0?t=497&si=vgwiHRlb50XECnl0' class='custom-button'>TextArea Tag</a>
+                <a href='https://youtu.be/vnnlUCLfn6I?t=70&si=ntTqUzgVlOAaTk_-' class='custom-button'>Inline & Block Eliment</a>
+                <a href='https://youtu.be/vnnlUCLfn6I?t=371&si=3nOVK-WxrWS2vYaU' class='custom-button'>List of Inline & Block</a>
+                <a href='https://youtu.be/vlAWzsGd-Yk?t=283&si=h26fe8DeL69ki-Df' class='custom-button'>Id & Classes</a>
+                <a href='https://youtu.be/XZwBNDGuWGU?t=72&si=lmctyzZZIC51EpvN' class='custom-button'>Video, controls resize </a>
+                <a href='https://youtu.be/XZwBNDGuWGU?t=313&si=vlBrOr6x8FQnHJbg' class='custom-button'>Audio</a>
+                <a href='https://youtu.be/XZwBNDGuWGU?t=266&si=1xWS9mseVWptRH3F' class='custom-button'>Poster</a>
+                <a href='https://youtu.be/XZwBNDGuWGU?t=462&si=dxrDbs4ih9Fuqo92' class='custom-button'>Preload Attribut</a>
+                <a href='https://youtu.be/XZwBNDGuWGU?si=Pze_X0nvX_GETGEd&t=572' class='custom-button'>SVG</a>
+                <a href='https://youtu.be/fhoDRB53DwY?t=40&si=GlCHbYphnZMFnknk' class='custom-button'>Semantic Tags</a>
+                <a href='https://youtu.be/cvsbHZcDx8w?t=65&si=5e-6Z1Y290BCCEfw' class='custom-button'>HTML Entities</a>
+                <a href='https://youtu.be/cvsbHZcDx8w?t=205&si=TT64UVdVZNbdcvNJ' class='custom-button'>Quatation & Obsolute Tags</a>
+                <a href='https://youtu.be/cvsbHZcDx8w?t=342&si=r8KFt9-x8aKZNrfN' class='custom-button'>Code Tags prism.JS Libarary</a>
+                <a href='#' class='custom-button'>Button 50</a>
+                
+            </div>
+            <div class="tdesign">
+                <div class="line"></div>
+                <h3 class="thead">CSS Topics</h3>
+                <div class="line"></div>
+            </div>
+            <div class="button-container">
+                <!-- Creating 50 buttons -->    
+                <a href='https://youtu.be/1dkfuga2_Ps?t=258&si=jgOzxqG_ucOPW9cX' class='custom-button'>CSS syntax</a>
+                <a href='https://youtu.be/-XwZpYIyCEA?t=56&si=hWQaZPrSQfZbaY9n' class='custom-button'>Add CSS in HTML </a>
+                <a href='https://youtu.be/1cEG1T8beO4?t=120&si=PlCxypE_dszhso8t' class='custom-button'>Eliment Sellector</a>
+                <a href='https://youtu.be/1cEG1T8beO4?t=204&si=ksYKWA93hHpslHAc' class='custom-button'>Class Sellector</a>
+                <a href='https://youtu.be/1cEG1T8beO4?t=240&si=6V4Xe8x1bnEGEsHs' class='custom-button'>ID Sellector</a>
+                <a href='https://youtu.be/1cEG1T8beO4?t=285&si=Tc_htLogUcOG-JQb' class='custom-button'>Child Sellector</a>
+                <a href='https://youtu.be/1cEG1T8beO4?t=388&si=E34pV7EJbnO1G_7R' class='custom-button'>Descendant Sellector</a>
+                <a href='https://youtu.be/1cEG1T8beO4?t=425&si=t9SN-d3OFiqo8x5b' class='custom-button'>Universal Sellector</a>
+                <a href='https://youtu.be/1cEG1T8beO4?t=482&si=PP0zayJJzPdezUXX' class='custom-button'>Pseudo Sellector</a>
+                <a href='https://youtu.be/1cEG1T8beO4?t=482&si=PP0zayJJzPdezUXX' class='custom-button'>CSS Box Model</a>
+                <a href='https://youtu.be/Xrxd6cEajhM?t=890&si=LaIPlH4pmPqf-EGr' class='custom-button'>Margin Collaps</a>
+                <a href='https://youtu.be/aFicd4-YTfo?t=30&si=mah0sFE0ic21EIut' class='custom-button'>Font</a>
+                <a href='https://youtu.be/aFicd4-YTfo?t=575&si=CmaDJcBF4NV11nQS' class='custom-button'>Font Properties</a>
+                <a href='https://youtu.be/aFicd4-YTfo?t=718&si=HkgWJnfQE9wjB1xE' class='custom-button'>Line Height</a>
+                <a href='https://youtu.be/aFicd4-YTfo?t=800&si=n4Q0LmIKigYOys10' class='custom-button'>Lettor Spacing</a>
+                <a href='https://youtu.be/aFicd4-YTfo?t=841&si=OsFhOCENdWrBdCWX' class='custom-button'>Text Decoration</a>
+                <a href='https://youtu.be/aFicd4-YTfo?t=1297&si=EwuP6ZpPkkh9Cy1y' class='custom-button'>Text Decoration Color</a>
+                <a href='https://youtu.be/aFicd4-YTfo?t=1297&si=EwuP6ZpPkkh9Cy1y' class='custom-button'>Text Decoration Color</a>
+                <a href='https://youtu.be/uTcpbPMZlFE?t=81&si=hQB_--oaPHvYxtMC' class='custom-button'>CSS Specificity</a>
+                <a href='https://youtu.be/uTcpbPMZlFE?t=156&si=k0-AfNFhagVI1p03' class='custom-button'>Cascading Algorithm</a>
+                <a href='https://youtu.be/nkaAJYfRDVk?t=31&si=OD_rWndT9FlAJBFd' class='custom-button'>px</a>
+                <a href='https://youtu.be/nkaAJYfRDVk?t=241&si=C60-E7Av3HivFfTT' class='custom-button'>vw & vh </a>
+                <a href='https://youtu.be/nkaAJYfRDVk?t=451&si=lhYFsjtm8CbvSQwb' class='custom-button'>%</a>
+                <a href='https://youtu.be/nkaAJYfRDVk?t=496&si=AmOh3K7-jqiFDdy9' class='custom-button'>rem & em</a>
+                <a href='https://youtu.be/nkaAJYfRDVk?t=818&si=YMVg_CMV51Q2v5K2' class='custom-button'>vmin & vmax</a>
+                <a href='https://youtu.be/nkaAJYfRDVk?t=1001&si=GIHDyTLkwoxfB9Qk' class='custom-button'>More Unit</a>
+                <a href='https://google.com/' class='custom-button'>go to google</a>
+                <a href='' class='custom-button'></a>
+                <a href='' class='custom-button'></a>
+                <a href='' class='custom-button'></a>
+                <a href='' class='custom-button'></a>
+                <a href='' class='custom-button'></a>
+               
+            </div>
+            <div class="tdesign">
+                <div class="line"></div>
+                <h3 class="thead">JavaScrip Topics</h3>
+                <div class="line"></div>
+            </div>
+            <div class="button-container">
+                <!-- Creating 50 buttons -->    
+                <a href='https://youtu.be/NrhP53Divco?si=IVFeNtFZ6dcCiZub&t=69 ' class='custom-button'>Introduction to JavaScrip</a>
+                <a href='https://youtu.be/NrhP53Divco?si=pCbUpy0Br_hHIPw1&t=742' class='custom-button'>Installing Note JS</a>
+                <a href='https://youtu.be/HGCDMJXS1cc?si=_HWKzdsZRxjA4zHK' class='custom-button'>Variables and Data Type</a>
+                <a href='https://youtu.be/HGCDMJXS1cc?si=btusNbQbywYOzO60&t=455' class='custom-button'>VAr vs Let</a>
+                <a href='https://youtu.be/HGCDMJXS1cc?si=tcHIbpAm0ErB2sBn&t=728' class='custom-button'>Primitive Data Typs and Object</a>
+                <a href='' class='custom-button'></a>
+               
+            </div>
+            <!-- ... (repeat this line for buttons 3 to 50) -->
+        </div>
+    </div>
+</body>
+
+</html>
